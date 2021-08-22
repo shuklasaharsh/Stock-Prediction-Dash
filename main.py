@@ -29,8 +29,10 @@ a.third  { left: 85%; position: relative; }
 '''
 
 st.markdown(body, unsafe_allow_html=True)
-stocks = ["AAPL", "GOOG", "MSFT", "GME", "^NSEI"]
-selected_stock = st.selectbox("Select Stock", stocks)
+# stocks = ["AAPL", "GOOG", "MSFT", "GME", "^NSEI"]
+# selected_stock = st.selectbox("Select Stock", stocks)
+selected_stock = "AAPL"
+selected_stock = st.text_input("TICKET NAME", "AAPL")
 n_years = st.slider("Years of prediction: ", 1, 4)
 period = n_years * 365
 
