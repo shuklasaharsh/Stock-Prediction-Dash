@@ -1,8 +1,5 @@
 import streamlit as st  # Streamlit is used to get the frontend
 from datetime import date  # DateTime for the time series analysis
-import yfinance as yf  # YFinance gets Stock Data
-import prophet
-from plotly import graph_objects as go
 import dataOps
 import plotOps
 import forecastOps
