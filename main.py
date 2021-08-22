@@ -10,6 +10,8 @@ import forecastOps
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
+st.set_page_config(page_title="Stockd", page_icon="./data/favicon.ico", layout="centered")
+
 body = '''
 <style>
 a {text-decoration: none;}
